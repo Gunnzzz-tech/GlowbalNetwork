@@ -1,17 +1,30 @@
-# movieapp
+# 🎬 Flutter Movie App
 
-A new Flutter project.
+A Netflix-style Flutter app that shows popular movies, lets users search for titles, and view detailed information (with posters, ratings, runtime, and more).  
 
-## Getting Started
+Built using **Flutter**, **BLoC state management**, and **The Movie Database (TMDB) API**.  
+Youtube Video - https://youtube.com/shorts/DsixIgVoNjE?si=AQUEH8nhVF4huiwe
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
+- 🔍 **Search movies** using the TMDB API.  
+- 🎞 **Browse popular movies** (paginated).  
+- 📱 **Movie detail screen** with poster, genres, runtime, and overview.  
+- 🎨 Netflix-inspired **UI/UX** with splash screen animation.  
+- 📲 Responsive layouts (works on iOS, Android, tablets).  
+- 🌗 Gradient overlays on posters for a cinematic look.  
+- ⚡ State management with **BLoC**.  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📸 Screenshots
+(Add some screenshots of your app running here)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# GlowbalNetwork
+---
+
+## 🛠️ Installation
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/your-username/movieapp.git
+   cd movieapp
