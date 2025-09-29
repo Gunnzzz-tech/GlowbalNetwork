@@ -1,9 +1,10 @@
 import 'dart:convert';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:http/http.dart' as http;
 import '../models/movie_model.dart';
 
 class MovieRepository{
-  final String apiKey="0feb1c6a0c48a8f281df074545dc0891";
+  final String apiKey = dotenv.env['API_KEY'] ?? '';
 
   Future<List<Movie>> fetchPopularMovies() async{
     final url="https://api.themoviedb.org/3/movie/popular?api_key=$apiKey&page=1";
