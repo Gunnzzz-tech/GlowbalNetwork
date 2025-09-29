@@ -3,6 +3,8 @@
 A Netflix-style Flutter app that shows popular movies, lets users search for titles, and view detailed information (with posters, ratings, runtime, and more).  
 
 Built using **Flutter**, **BLoC state management**, and **The Movie Database (TMDB) API**.  
+
+
 Youtube Video - https://youtube.com/shorts/DsixIgVoNjE?si=AQUEH8nhVF4huiwe
 ---
 
